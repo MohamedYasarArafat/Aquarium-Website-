@@ -1,0 +1,7 @@
+.sub-menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: var(--bg-sub-menu);
+  color: var(--default-color);
+}
