@@ -1,5 +1,6 @@
 import Cards from "./cards";
 import ImageSlider from "./imageSlider";
+import ShoppingItems from "./shopingItems";
 
 const Home = () => {
   return (
@@ -11,7 +12,9 @@ const Home = () => {
         <div>
           <Cards />
         </div>
-        <div></div>
+        <div>
+          <ShoppingItems />
+        </div>
       </div>
     </>
   );

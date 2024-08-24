@@ -16,7 +16,7 @@ const Cards = () => {
             <h4>
               <b>Filter's</b>
             </h4>
-            <p>Architect & Engineer</p>
+            <p>Lorem Ipsum</p>
           </div>
         </div>
         <div className={ClassNames["card"]}>
@@ -25,7 +25,7 @@ const Cards = () => {
             <h4>
               <b>Fish Foods</b>
             </h4>
-            <p>Architect & Engineer</p>
+            <p>Lorem Ipsum</p>
           </div>
         </div>
         <div className={ClassNames["card"]}>
@@ -34,7 +34,7 @@ const Cards = () => {
             <h4>
               <b>Fish's</b>
             </h4>
-            <p>Architect & Engineer</p>
+            <p>Lorem Ipsum</p>
           </div>
         </div>
         <div className={ClassNames["card"]}>
@@ -43,7 +43,7 @@ const Cards = () => {
             <h4>
               <b>Fish Tank's</b>
             </h4>
-            <p>Architect & Engineer</p>
+            <p>Lorem Ipsum</p>
           </div>
         </div>
         <div className={ClassNames["card"]}>
@@ -52,7 +52,7 @@ const Cards = () => {
             <h4>
               <b>Plants's</b>
             </h4>
-            <p>Architect & Engineer</p>
+            <p>Lorem Ipsum</p>
           </div>
         </div>
       </div>

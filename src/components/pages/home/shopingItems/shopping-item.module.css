@@ -1,0 +1,17 @@
+.shopping-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #004c8f;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.shopping-items {
+  text-align: center;
+}
+.shopping-icons-items {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
