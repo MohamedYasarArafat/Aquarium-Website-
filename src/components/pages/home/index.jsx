@@ -8,7 +8,7 @@ import FishTankSetup from "./fishTankSetup";
 const Home = () => {
   return (
     <>
-      <div style={{ marginBottom: "1rem" }}>
+      <div className={ClassNames["home-container"]}>
         <div>
           <ImageSlider />
         </div>
@@ -21,7 +21,7 @@ const Home = () => {
         <div className={ClassNames["video-container"]}>
           <Video />
         </div>
-        <div>
+        <div className={ClassNames["fish-tank-info"]}>
           <FishTankSetup />
         </div>
       </div>

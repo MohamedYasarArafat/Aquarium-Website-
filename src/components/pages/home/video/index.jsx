@@ -5,10 +5,11 @@ const Video = () => {
   return (
     <>
       <div className={ClassNames["video-sub-container"]}>
-        <div style={{ width: "50%", padding: "0.5rem" }}>
+        <div className={ClassNames["video-player"]}>
           <iframe
             width="100%"
-            height="350"
+            height="100%"
+            // height={ClassNames["video-player-height"]}
             src={
               "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4?autoplay=1&mute=1"
             }
@@ -16,7 +17,7 @@ const Video = () => {
             autoplay="1"
           ></iframe>
         </div>
-        <div style={{ width: "50%", padding: "0.5rem", display: "flex" }}>
+        <div className={ClassNames["video-desc"]}>
           <div className={ClassNames["video-info"]}>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

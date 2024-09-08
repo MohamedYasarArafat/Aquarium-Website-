@@ -20,3 +20,17 @@
   color: #004c8f;
   font-weight: bold;
 }
+.card-container {
+  display: flex;
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 767px) {
+  .card-container {
+    display: block;
+    margin-left: 1rem;
+  }
+  .card {
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+}

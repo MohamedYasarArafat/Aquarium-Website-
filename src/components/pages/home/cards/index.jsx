@@ -9,7 +9,7 @@ const Cards = () => {
   return (
     <>
       <div className={ClassNames["card-heading"]}>Top Rated</div>
-      <div style={{ display: "flex", marginLeft: "1rem" }}>
+      <div className={ClassNames["card-container"]}>
         <div className={ClassNames["card"]}>
           <img src={FilterImg} alt="Avatar" style={{ width: "100%" }} />
           <div className={ClassNames["container"]}>

@@ -20,3 +20,39 @@
   justify-content: center;
   background-color: #000;
 }
+.video-player {
+  width: 50%;
+  padding: 0.5rem;
+}
+.video-player-height {
+  height: 350;
+}
+.video-desc {
+  width: 50%;
+  padding: 0.5rem;
+  display: flex;
+}
+@media only screen and (max-width: 767px) {
+  .video-sub-container {
+    display: block;
+  }
+  .video-player {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .video-player-height {
+    height: 12rem;
+  }
+  .video-desc {
+    width: 100%;
+    padding: 0.5rem;
+    display: block;
+  }
+  .video-info {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .video-info1 {
+    width: 100%;
+  }
+}

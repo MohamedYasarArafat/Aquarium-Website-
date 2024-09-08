@@ -27,47 +27,65 @@ const ShoppingItems = () => {
               <span style={{ marginRight: "2rem" }}>
                 <img style={{ width: "4rem" }} src={FilterIcon}></img>
                 <img style={{ width: "3rem" }} src={Filter2}></img>
-                <div>Aquarium Accessories</div>
+                <div classname={classNames["shopping-items-title"]}>
+                  Aquarium Accessories
+                </div>
               </span>
               <span style={{ marginRight: "2rem" }}>
                 <img style={{ width: "4rem" }} src={FishTankIcon}></img>
                 <img style={{ width: "3rem" }} src={BoulIcon}></img>
-                <div>Tanks & Fish Bowl</div>
+                <div classname={classNames["shopping-items-title"]}>
+                  Tanks & Fish Bowl
+                </div>
               </span>
               <span style={{ marginRight: "2rem" }}>
                 <img style={{ width: "4rem" }} src={ToyIcon}></img>
-                <div>Toys & Decors</div>
+                <div classname={classNames["shopping-items-title"]}>
+                  Toys & Decors
+                </div>
               </span>
               <span style={{ marginRight: "2rem" }}>
                 <img style={{ width: "4rem" }} src={FishIcon}></img>
                 <img style={{ width: "2rem" }} src={ShirmsICon}></img>
-                <div>Fish & shrimps</div>
+                <div classname={classNames["shopping-items-title"]}>
+                  Fish & shrimps
+                </div>
               </span>
               <span style={{ marginRight: "2rem" }}>
                 <img style={{ width: "4rem" }} src={FishFoodIcon}></img>
                 <img style={{ width: "2rem" }} src={fishfood}></img>
-                <div>Aquarium Foods</div>
+                <div classname={classNames["shopping-items-title"]}>
+                  Aquarium Foods
+                </div>
               </span>
             </div>
             <div className={classNames["shopping-icons-items"]}>
               <span style={{ marginRight: "2rem" }}>
                 <img style={{ width: "4rem" }} src={tool1}></img>
                 <img style={{ width: "3rem" }} src={tool2}></img>
-                <div>Aqua scaping Tools</div>
+                <div classname={classNames["shopping-items-title"]}>
+                  Aqua scaping Tools
+                </div>
               </span>
               <span style={{ marginRight: "2rem" }}>
                 <img style={{ width: "4rem" }} src={supplementIcon}></img>
-                <div>Remedies & Fertilizers</div>
+                <div classname={classNames["shopping-items-title"]}>
+                  Remedies & Fertilizers
+                </div>
               </span>
               <span style={{ marginRight: "2rem" }}>
                 <img style={{ width: "4rem" }} src={plant2}></img>
                 <img style={{ width: "3rem" }} src={plant3}></img>
-                <div>Live Plants & Rocks</div>
+                <div classname={classNames["shopping-items-title"]}>
+                  Live Plants & Rocks
+                </div>
               </span>
               <span style={{ marginRight: "2rem" }}>
                 <img style={{ width: "4rem" }} src={Filter5}></img>
                 <img style={{ width: "3rem" }} src={Filter4}></img>
-                <div>Gadgets</div>
+                <div classname={classNames["shopping-items-title"]}>
+                  Gadgets
+                </div>
               </span>
             </div>
           </div>

@@ -5,7 +5,7 @@ import Trolley from "../../assets/images/trolley.png";
 import UserIcon from "../../assets/images/user.png";
 import TrackOrder from "../../assets/images/track.png";
 
-const TopNavbar = () => {
+const Navbar = () => {
   return (
     <>
       <div className={classNames["top-nav-bar-container"]}>
@@ -64,4 +64,4 @@ const TopNavbar = () => {
   );
 };
 
-export default TopNavbar;
+export default Navbar;

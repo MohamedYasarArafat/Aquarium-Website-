@@ -60,6 +60,18 @@
 .slide.five {
   background: rgb(173, 11, 188);
 }
+@media only screen and (max-width: 767px) {
+  .slider_container {
+    height: 10rem;
+    width: 100%;
+    overflow: overlay;
+    min-width: 50%;
+  }
+  .home-container {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+}
 
 @keyframes sliding {
   0% {

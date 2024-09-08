@@ -4,14 +4,14 @@ const Submenu = () => {
   return (
     <>
       <div className={classNames["sub-menu-container"]}>
-        <div>Home</div>
-        <div>Shop</div>
-        <div>Contact us</div>
-        <div>Shipping policy</div>
-        <div>Terms & Conditions</div>
-        <div>Privacy Policy</div>
-        <div>Disclaimer</div>
-        <div>About us</div>
+        <div className={classNames["sub-menu-titile"]}>Home</div>
+        <div className={classNames["sub-menu-titile"]}>Shop</div>
+        <div className={classNames["sub-menu-titile"]}>Contact us</div>
+        <div className={classNames["sub-menu-titile"]}>Shipping policy</div>
+        <div className={classNames["sub-menu-titile"]}>Terms & Conditions</div>
+        <div className={classNames["sub-menu-titile"]}>Privacy Policy</div>
+        <div className={classNames["sub-menu-titile"]}>Disclaimer</div>
+        <div className={classNames["sub-menu-titile"]}>About us</div>
       </div>
     </>
   );

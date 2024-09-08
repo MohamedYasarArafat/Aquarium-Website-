@@ -44,3 +44,18 @@
 .top-nav-bar-img-div {
   text-align: center;
 }
+@media only screen and (max-width: 767px) {
+  .top-nav-bar-img-title {
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+  .top-nav-bar-container {
+    display: block;
+  }
+  .top-nav-bar-search {
+    margin-bottom: 1rem;
+  }
+  .top-nav-bar-menu {
+    justify-content: center;
+  }
+}

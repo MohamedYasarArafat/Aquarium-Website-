@@ -66,3 +66,20 @@
   text-align: center;
   color: #fff;
 }
+.plant-icon {
+  width: 30rem;
+  height: 20rem;
+}
+@media only screen and (max-width: 767px) {
+  .tab-info-image {
+    display: block;
+  }
+  .plant-icon {
+    width: 100%;
+    height: 12rem;
+  }
+  .tab {
+    width: 100%;
+    overflow: overlay;
+  }
+}

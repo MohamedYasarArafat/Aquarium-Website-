@@ -71,10 +71,7 @@ const FishTankSetup = () => {
         <div id="Tab1" class="tabcontent activetab">
           <div className="tab-info-image">
             <div>
-              <img
-                style={{ width: "30rem", height: "20rem" }}
-                src={PlantIcon}
-              ></img>
+              <img src={PlantIcon} className="plant-icon"></img>
             </div>
             <div className="tab-info-content">
               Planted or natural aquariums contain specially selected aquatic
@@ -88,10 +85,7 @@ const FishTankSetup = () => {
         <div id="Tab2" class="tabcontent">
           <div className="tab-info-image">
             <div>
-              <img
-                style={{ width: "30rem", height: "20rem" }}
-                src={BedRoomTank}
-              ></img>
+              <img className="plant-icon" src={BedRoomTank}></img>
             </div>
             <div className="tab-info-content">
               One should avoid keeping aquariums in the bedroom or kitchen, as
@@ -104,10 +98,7 @@ const FishTankSetup = () => {
         <div id="Tab3" class="tabcontent">
           <div className="tab-info-image">
             <div>
-              <img
-                style={{ width: "30rem", height: "20rem" }}
-                src={TableTank}
-              ></img>
+              <img className="plant-icon" src={TableTank}></img>
             </div>
             <div className="tab-info-content">
               Placing an aquarium in right place in your home or office will
@@ -120,10 +111,7 @@ const FishTankSetup = () => {
           {" "}
           <div className="tab-info-image">
             <div>
-              <img
-                style={{ width: "30rem", height: "20rem" }}
-                src={BedroomPaludarium}
-              ></img>
+              <img className="plant-icon" src={BedroomPaludarium}></img>
             </div>
             <div className="tab-info-content">
               One should avoid keeping aquariums in the bedroom or kitchen, as
@@ -136,10 +124,7 @@ const FishTankSetup = () => {
         <div id="Tab5" class="tabcontent">
           <div className="tab-info-image">
             <div>
-              <img
-                style={{ width: "30rem", height: "20rem" }}
-                src={LivingRoom}
-              ></img>
+              <img className="plant-icon" src={LivingRoom}></img>
             </div>
             <div className="tab-info-content">
               An aquarium ( PL aquariums or aquaria) is a vivarium of any size
