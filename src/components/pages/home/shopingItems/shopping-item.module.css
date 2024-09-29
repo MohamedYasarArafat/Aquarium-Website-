@@ -18,10 +18,13 @@
 
 @media only screen and (max-width: 767px) {
   .shopping-icons-items {
-    display: block;
+    /* display: block; */
     text-align: center;
   }
   .shopping-items-title {
     margin-bottom: 1rem;
+  }
+  .shopping-items {
+    padding: 0.5rem;
   }
 }
